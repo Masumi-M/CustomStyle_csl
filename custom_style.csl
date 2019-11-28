@@ -13,7 +13,8 @@
     <category citation-format="numeric"/>
     <category field="medicine"/>
     <summary>Custom Style [ScienceIncollegiate2019]</summary>
-    <updated>2019-11-22T13:40:47+00:00</updated>    <updated>2019-11-22T13:46:13+00:00</updated>
+    <updated>2019-11-28T14:31:25+00:00</updated>
+    <updated>2019-11-22T13:46:13+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-GB">
@@ -61,7 +62,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name form="short" and="text" delimiter-precedes-last="never" et-al-min="2" initialize-with=". " name-as-sort-order="all"/>
+      <name form="short" and="text" delimiter-precedes-last="never" et-al-min="2" initialize-with="." name-as-sort-order="all"/>
       <label form="short" prefix=" (" suffix=")"/>
       <et-al font-style="normal"/>
       <substitute>
@@ -257,7 +258,7 @@
     <sort>
       <key macro="year-date"/>
     </sort>
-    <layout prefix="(" suffix=")" delimiter="; ">
+    <layout delimiter="; " prefix="（" suffix="）">
       <group delimiter=", ">
         <group delimiter=", ">
           <text macro="author-short"/>
